@@ -1,0 +1,43 @@
+{
+  "name": "my-app--server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "lib": "rm -rf lib/ && babel src/ -d lib/",
+    "start": "npm run lib && node ./bin/www"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "eslint": "^4.10.0",
+    "express": "~4.15.5",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-intl": "^2.5.0",
+    "react-loadable": "^5.3.1",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
+    "redux": "^3.7.2",
+    "serve-favicon": "~2.4.5",
+    "universal-cookie": "^3.0.4"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  },
+  "babel": {
+    "presets": [
+      "env",
+      "react"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "airbnb-base"
+  }
+}

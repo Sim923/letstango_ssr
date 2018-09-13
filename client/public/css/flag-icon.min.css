@@ -1,0 +1,63 @@
+.flag-icon-background{
+    background-size:contain;
+    background-position:50%;
+    background-repeat:no-repeat
+}
+.flag-icon{
+    background-size:contain;
+    background-position:50%;
+    background-repeat:no-repeat;
+    position:relative;
+    display:inline-block;
+    width:1.33333333em;
+    line-height:1em
+}
+.flag-icon:before{
+    content:"\00a0"
+}
+.flag-icon.flag-icon-squared{
+    width:1em
+}
+
+.flag-icon-AED{
+    background-image:url(../flags/4x3/ae.svg)
+}
+.flag-icon-AED.flag-icon-squared{
+    background-image:url(../flags/1x1/ae.svg)
+}
+.flag-icon-BHD{
+    background-image:url(../flags/4x3/bh.svg)
+}
+.flag-icon-BHD.flag-icon-squared{
+    background-image:url(../flags/1x1/bh.svg)
+}
+.flag-icon-KWD{
+    background-image:url(../flags/4x3/kw.svg)
+}
+.flag-icon-KWD.flag-icon-squared{
+    background-image:url(../flags/1x1/kw.svg)
+}
+.flag-icon-OMR{
+    background-image:url(../flags/4x3/om.svg)
+}
+.flag-icon-OMR.flag-icon-squared{
+    background-image:url(../flags/1x1/om.svg)
+}
+.flag-icon-SAR{
+    background-image:url(../flags/4x3/sa.svg)
+}
+.flag-icon-SAR.flag-icon-squared{
+    background-image:url(../flags/1x1/sa.svg)
+}
+.flag-icon-USD{
+    background-image:url(../flags/4x3/us.svg)
+}
+.flag-icon-USD.flag-icon-squared{
+    background-image:url(../flags/1x1/us.svg)
+}
+.flag-icon-EU{
+    background-image:url(../flags/4x3/eu.svg)
+}
+.flag-icon-EU.flag-icon-squared{
+    background-image:url(../flags/1x1/eu.svg)
+}

@@ -1,0 +1,199 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@media only screen and (max-width: 767px){
+body.rtl #hero-slider img {
+    width: 550px;
+    height: auto;
+    margin-right: 50%;
+    transform: translateX(50%);
+}
+
+body.rtl .dealblock h2 {
+    display: inline;
+    float: right;
+    color: #585858;
+    font-size: 22px;
+    padding-top: 17%;
+    padding-right: 15px;
+    font-weight: 700;
+    vertical-align: middle;
+}
+
+body.rtl #main-header .input-group {
+    transition: 0.5s;
+    padding-right: 0%;
+	 padding-left: 0%;
+}
+
+
+body.rtl #header-base {
+    width: 100%;
+    height: 100%;
+    color: #444444;
+    overflow-y: auto;
+    font-size: 12px;
+    position: fixed;
+    z-index: 9999999;
+    top: 0;
+    transition: transform 0.8s ease;
+    transform: translateX(110%);
+    background: #ffffff;
+    padding-top: 0;
+}
+body.rtl .menu-icon img {
+    margin-top: 0px;
+    margin-right: -10px;
+}
+
+body.rtl #header-base .nav-bar {
+    position: absolute;
+    top: 15px;
+    right: auto;
+	left:15px;
+}
+body.rtl li.nav-header a img {
+    width: 75%;
+    float: right;
+}
+
+body.rtl  .fa-arrow-left:before {
+    content: "\f061";
+}
+
+body.rtl  #primary-menu .icon-back {
+    font-size: 1.2em;
+    display: none;
+    margin: 0 4px 0 14px;
+}
+body.rtl  .category-wrapper i.fa-angle-right {
+    float: left;
+}
+body.rtl #primary-menu .sm-icon {
+    margin: 0 0 0 8px;
+}
+
+body.rtl #home-dealblock .col-md-2 {
+    padding-right: 8px;
+    padding-left: 8px;
+}
+body.rtl #smartphone_block .col-6 {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+body.rtl .start {
+    padding-right: 8px !important;
+    padding-left: 8px !important;
+}
+
+body.rtl .end {
+    padding-right: 8px !important;
+    padding-left: 8px !important;
+}
+body.rtl #electronic_block .col-md-4 {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+body.rtl #home-head h1 span {
+    background: #f7f7f7;
+    padding: 0 15px;
+    position: relative;
+    z-index: 1;
+    margin-right: 0;
+    margin-left: auto;
+}
+body.rtl li.cart {
+    position: absolute;
+    top: -80px;
+	right:auto;
+    left: -20px;
+    display: block;
+    z-index: 1200;
+}
+body.rtl .brand {
+    margin-right: 15px;
+}
+
+body.rtl #tille-block {
+    margin-right: -25px !important;
+    margin-left: -10px !important;
+    padding-bottom: 0px;
+}
+
+body.rtl  .filterbuttons-mobile button.btn-outline-secondary {
+    background-color: transparent;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    text-align: center;
+    width: 50%;
+    padding: 10px 0px;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 0px solid transparent !important;
+    border-left: 1px solid #E7E7E7 !important;
+	border-right: 0px solid #E7E7E7 !important;
+    border-radius: 0px;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #080808;
+    line-height: 1.5;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+body.rtl  .filterbuttons-mobile {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    width: 108%;
+    border-top: 1px solid #e7e7e7;
+    margin-right: -11px;
+    margin-left: -25px;
+}
+body.rtl  #tille-block h1.tittle span.mobleft {
+    float: right;
+}
+body.rtl  #tille-block h1.tittle span.mobright {
+    float: left;
+}
+body.rtl  #category_list_page .right-category_body .end {
+    padding-left: 15px !important;
+}
+
+body.rtl  div.options > label > img {
+    display: inline-block;
+    padding: 0px;
+    border-radius: 10px 10px 10px 10px;
+    border: 2PX solid #A3A4AD;
+    height: 20px;
+    width: 20px;
+    background: none;
+    float: left;
+}
+body.rtl  .sortby-mob .closebtn {
+    position: absolute;
+    top: 0;
+    right: auto;
+	left: -10px;
+    font-size: 28px;
+}
+body.rtl div.options > label > input {
+    visibility: hidden;
+    display: none;
+}
+body.rtl .slashed-price {
+    float: right;
+    padding-right: 0PX;
+}
+body.rtl label.btn-secondary {
+    margin-right: 0px;
+    padding: 10px 0px 10px 10px;
+    font-size: 14px;
+}
+
+}

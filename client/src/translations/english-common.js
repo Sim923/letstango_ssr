@@ -1,0 +1,93 @@
+import React from 'react';
+
+export const HOME_PAGE = {    
+    
+    "name": "Johsn",
+ 
+};
+export const HEADER_FOOTER = {    
+    
+    "search_placeholder": "Search for products, brands and more",
+    "sell"				:"SELL",
+    "myaccount"			:"MY ACCOUNT",
+    "trackorder"		:"TRACK ORDER",
+    "login"				:"LOGIN",
+	
+	"AED" : "AED",
+	"USD" : "USD",
+	"EU"  : "EU",
+	"SAR" : "SAR",
+	"BHD" : "BHD",
+	"OMR" : "OMR",
+	"KWD" : "KWD",
+
+
+	"AllCategories" 	: "All Categories",
+	"MobilesTablets" 	: "Mobiles & Tablets",
+	"Gadgets"			: "Gadgets",
+	"Gaming" 			: "Gaming",
+	"Electronics" 		: "Electronics",
+	"Photography" 		: "Photography",
+	"HomeOutdoors" 		: "Home & Outdoors",
+	"SportsFitness" 	: "Sports & Fitness",
+	"FashionBeauty" 	: "Fashion & Beauty",
+	"BabyKids" 			: "Baby & Kids",
+
+	"letstango_com"				:"letstango.com",
+	"Online_shopping_UAE"		:"Online shopping UAE,",
+	"bestdeal"					:"2018 Best deals and offers every hour. Shop Now",
+	"letstango_is_the"			:"Letstango.com is the No.1 online shopping destination in UAE for electronics, smartphones, televisions, home appliances & gadgets. At letstango, we sell only genuine products and easy to return policy.We offer online shopping UAE with cash on delivery option. All users get 15 days free return and 100% refund back. Our online chat executives will assist you to pick the best products and help you to clear all the concerns before the purchase. We are one of the trusted members of Dubai Chamber of commerce.",
+	"onlineshopping_UAE_is_fun"	:"Online Shopping UAE is fun at letstango.com, You can earn rewards for all purchases and you can choose your preferred airline partners, We partnered with Air Arabia, Jet Airways & Airmiles to earn rewards points for every purchase. Every day we have online shopping deals and offers across all categories.",
+	"best_shopping_experience"	:"The best online shopping experience",
+	"genuine"					:"100% Genuine",
+	"quickdelivery"				:"Quick Delivery",
+	"daysreturn"				:"15 Day Returns",
+	"Worldwide_Shipping"		:"Worldwide Shipping",
+	"nevermissout"				:"Never miss out",
+	"signup_and_exclusive_offer":"Sign up and receive exclusive offers",
+	"Enter_mail_ID"				:"Enter mail ID",
+	"BE_AWESOME"				:"BE AWESOME",
+	"we_are_always_here"		:"We’re always here to help",
+	"reach_out_to_us"			:"Reach out to us through any of these support channels",
+	"hepl_centre"				:"HELP CENTRE",
+	"email_support"				:"Email Support",
+	"team_letstango"			:"team@letstango.com",
+	"phone_support"				:"Phone support",
+	"contcactno"				:"+971-4-3388225",
+	"letstango"					:"LETSTANGO",
+	"the_letstango_story"		:"The LetsTango.com Story",
+	"Why_LetsTango_com"			:"Why LetsTango.com",
+	"airrewards"				:"Air Rewards",
+	"jetprevilege"				:"JetPrivilege",
+	"air_miles"					:"Air Miles",
+	"career"					:"Career",
+	"seller_dashboard"			:"Seller Dashboard",
+	"lets_help_you"				:"LET US HELP YOU",
+	"contact_us"				:"Contact Us",
+	"extended_warranty"			:"Extended Warranty",
+	"faq"						:"FAQs",
+	"buyers_protection"			:"Buyers Protection",
+	"shipping_return"			:"Shipping & return",
+	"safe_secure"				:"Safe & Secure Shopping",
+	"terms_condition"			:"Terms & Conditions",
+	"popular_category"			:"POPULAR CATEGORIES",
+	"smartphones"				:"Smartphone",
+	"televisions"				:"Television",
+	"gadgets"					:"Gadgets",
+	"gaming"					:"Gaming",
+	"photography"				:"Photography",
+	"laptops"					:"Laptops",
+	"smartwatches"				:"Smart watches",
+	"sunglasses"				:"Sunglasses",
+	"womens_fashion"			:"Womens Fashion",
+	"mens_clothing"				:"Mens Clothing",
+	"toys"						:"Toys",
+	"home_appliance"			:"Home Appliances",
+	"baby_esssentials"			:"Baby Essentials",
+	"sports_ftnes"				:"Sports & Fitness",
+	"shop_on_the_go"			:"SHOP ON THE GO",
+	"copyright"					:"© Copyright 2018 LetsTango.com. All Rights Reserved"
+
+
+
+};
