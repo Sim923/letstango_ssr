@@ -37,6 +37,7 @@ addLocaleData([...locale_en, ...locale_ar]);
 const routes = [
   '/index.html', // service-worker
   '/',
+  '/*',
   '/product/*',
 
   '/login',
@@ -61,12 +62,18 @@ function reactRenderer(req, res, next) {
       exact: true,
     }),
   );
-
-  // bail
-  if (!match) {
-    console.log("path not found");
+  
+  const paths = req.path;
+  if (paths.endsWith('.css') || paths.endsWith('.js') || paths.endsWith('.png') || paths.endsWith('.jpg') ||
+    paths.endsWith('.json') || paths.endsWith('.ico') || paths.endsWith('.svg') || paths.endsWith('.gif') || paths.endsWith('.eot')|| paths.endsWith('.ttf')
+    || paths.endsWith('.woff')|| paths.endsWith('.woff2') || paths.endsWith('.ttf')) {
     return next();
   }
+  // bail
+  // if (!match) {
+  //   console.log("path not found");
+  //   return next();
+  // }
 
   const initialState = {
     foo: 'foobar',
